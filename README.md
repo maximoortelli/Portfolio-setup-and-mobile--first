@@ -111,6 +111,7 @@ The project can be deployed to a hosting service.
 👤 **Maximo Ortelli.**
 
 - GitHub: [@maximoortelli](https://github.com/maximoortelli)
+- Linkedin: [@maximoortellirueda](https://ar.linkedin.com/in/maximo-ortelli-rueda-265228203)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
