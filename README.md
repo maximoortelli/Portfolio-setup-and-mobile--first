@@ -32,7 +32,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio-details-popup-window <a name="about-project"></a>
+# 📖 Portfolio-setup-and-mobile-first <a name="about-project"></a>
 
 Portfolio: Setup and mobile first is a new project where I will create my first portfolio. The goal here is to master all the tools and best practices learned in the previous steps to use in all Microverse projects and probably my future work as well.
 
