@@ -4,7 +4,7 @@
   <img src="cat-black-face.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio: setup and mobile first</b></h3>
+  <h3><b>Portfolio: finish mobile version</b></h3>
 
 </div>
 
@@ -32,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio-setup-and-mobile-first <a name="about-project"></a>
+# 📖 Portfolio: finish mobile version <a name="about-project"></a>
 
-Portfolio: Setup and mobile first is a new project where I will create my first portfolio. The goal here is to master all the tools and best practices learned in the previous steps to use in all Microverse projects and probably my future work as well.
+Portfolio: Portfolio: finish mobile version is a new project where I will finish my first portfolio. The goal here is to master all the tools and best practices learned in the previous steps to use in all Microverse projects and probably my future work as well.
 
 ## 🛠 Built With <a name="built-with"></a>
 
