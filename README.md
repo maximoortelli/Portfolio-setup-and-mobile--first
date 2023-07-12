@@ -131,7 +131,7 @@ Contributions, issues, and feature requests are welcome!
 
 👤 **Contributors**
 
-> thanks for your effort, time and valuable contributions
+> thanks for all contributiors
 
 👤 Ahmed Alpanna
 - GitHub: [@ALPANNA-GH](https://github.com/ALPANNA-GH)
