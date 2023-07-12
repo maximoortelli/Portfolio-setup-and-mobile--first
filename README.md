@@ -129,6 +129,15 @@ This is the final build.
 
 Contributions, issues, and feature requests are welcome!
 
+👤 **Contributors**
+
+> thanks for your effort, time and valuable contributions
+
+👤 Ahmed Alpanna
+- GitHub: [@ALPANNA-GH](https://github.com/ALPANNA-GH)
+- Gmail: [Email](mailto:alpanna@gmail.com)
+
+
 Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
