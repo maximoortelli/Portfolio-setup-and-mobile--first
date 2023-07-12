@@ -21,10 +21,16 @@ body {
   display: flex;
 }
 
-.margin {
+.margen {
   margin-left: 6.4vw;
   margin-right: 6.4vw;
 }
+
+.contactme {
+  margin-bottom: -5px;
+}
+
+
 
 header {
   background-color: #fff; /* Cambios */
