@@ -1,0 +1,1917 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f7f7f9;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  background-color: #fff;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+  display: flex;
+}
+
+.margen {
+  margin-left: 6.4vw;
+  margin-right: 6.4vw;
+}
+
+header {
+  background-color: #fff; /* Cambios */
+}
+
+li {
+  list-style: none; /* Cambios */
+}
+
+a {
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  text-decoration: none; /* cambios */
+}
+
+.navbar {
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-link {
+  transition: 0.7s ease;
+}
+
+.nav-link:hover {
+  color: dodgerblue;
+}
+
+.hamburguer {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  background-color: #6070ff;/* Meter transicion de color al hacer click violeta a blanco */
+}
+
+nav {
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2 {
+  color: #6070ff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  margin-left: -7%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+#menu-boton {
+  background-image: url(media/burger.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 4.8vw;
+  height: 3.2vw;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  border-radius: 0;
+}
+
+.enter {
+  background-image: url("media/mobile2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: flex-start;
+  row-gap: 0.032vw;
+  background-color: #fff;
+  border-bottom-left-radius: 21.3vw;
+  background-size: contain;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 10.6vw;
+  color: #172b4d;
+  padding-top: 40vw;
+  padding-bottom: 15px;
+  margin: 0;
+  line-height: 12.85vw;
+  max-width: 11ch;
+}
+
+.tarjetas {
+  grid-template-rows: repeat(4, 76.8vw);
+  grid-row-gap: 12.25vw;
+  margin: 30.4vw 6.4vw;
+  grid-template-columns: 87vw;
+}
+
+.clase p {
+  font-size: 3.2vw;
+  color: #6070ff;
+  padding: 1.067vw 3.2vw;
+  margin: 0;
+}
+
+.trabajo-informacion {
+  font-size: 4vw;
+  font-weight: 400;
+  line-height: 6.4vw;
+  color: #344563;
+}
+
+p.espacio {
+  margin-left: 18px;
+}
+
+.contacto p {
+  color: #ebebff;
+  font-size: 5.3vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 7.467vw;
+  text-align: center;
+  margin-top: 3.2vw;
+  margin-bottom: 13.86vw;
+}
+
+div.enter p {
+  margin-top: 3.2vw;
+  font-size: 4.26vw;
+  color: #344563;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 3.467vw;
+  color: #344563;
+  margin: 0;
+}
+
+div.conectar h4 {
+  color: #7f8cff;
+  font-weight: 500;
+  font-size: 4.26vw;
+  margin-top: 0;
+  margin-bottom: 3.2vw;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.iconos {
+  justify-content: flex-start;
+  align-items: end;
+  margin-top: 0;
+  margin-bottom: 0;
+  gap: 5vw;
+}
+
+.icono:hover {
+  opacity: 0.8;
+}
+
+.conectar {
+  column-gap: 5vw;
+}
+
+.enter .conectar {
+  margin-bottom: 36.267vw;
+}
+
+.trabajo {
+  border: 1px solid #dfe1e6;
+  border-radius: 4.26vw;
+  margin-bottom: 21.6vw;
+  background-color: #fff;
+}
+
+.articulo-trabajo {
+  margin: 2% 4%;
+}
+
+.trabajo-imagen {
+  align-self: center;
+  margin-top: 4%;
+  width: 78.667vw;
+  height: 58.667vw;
+}
+
+.escritorio-trabajo-foto {
+  visibility: hidden;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.escritorio-trabajo-foto-izquierda {
+  visibility: hidden;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+h3 {
+  font-size: 8.53vw;
+  font-weight: 700;
+  color: #172b4d;
+}
+
+.empresa {
+  margin-top: 0;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.empresa li p {
+  font-size: 3.46vw;
+  color: #7a869a;
+  margin: 0;
+}
+
+span {
+  background-color: white;
+}
+
+.empresa li {
+  margin: 2.13vw 1.7vw;
+}
+
+.clase {
+  justify-content: start;
+  align-items: baseline;
+}
+
+.clase li {
+  background-color: #ebebff;
+  border-radius: 2.13vw;
+  margin-right: 1.75vw;
+}
+
+li.lenguaje {
+  margin-left: 0;
+}
+
+.acerca {
+  border-top-right-radius: 21.3vw;
+  background-color: #fff;
+  padding-bottom: 47.16vw;
+}
+
+.acerca h3 {
+  margin-top: 0;
+  padding-top: 30.4vw;
+  margin-bottom: 0;
+}
+
+.acerca p.grafia {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.26vw;
+  line-height: 6.4vw;
+  color: #344563;
+  margin-top: 3.2vw;
+  margin-bottom: 10px;
+}
+
+li.idioma p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.acerca ul li p {
+  font-size: 4vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 5.3vw;
+  color: #253858;
+}
+
+button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.5vw;
+  line-height: 3.34vw;
+  letter-spacing: 0.03em;
+  align-items: center;
+  text-align: center;
+  padding: 4.5vw 3vw;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  color: #396df2;
+  background-color: transparent;
+}
+
+.acerca button {
+  margin-bottom: 16vw;
+}
+
+li.conocimiento {
+  justify-content: space-between;
+  align-items: center;
+  border-style: none none solid;
+  border-width: 0.3vw;
+  border-color: #dfe1e6;
+}
+
+img#sigue {
+  width: 7vw;
+  height: 7vw;
+  margin-right: 11.2vw;
+}
+
+#sigue2 {
+  width: 7vw;
+  height: 7vw;
+  margin-right: 11.2vw;
+}
+
+#sigue3 {
+  width: 7vw;
+  height: 7vw;
+  margin-right: 11.2vw;
+}
+
+.contacto textarea {
+  width: 87.2vw;
+  height: 45.3vw;
+  border: 0.267vw solid #cfd8dc;
+  border-radius: 2.13vw;
+  font-size: 4vw;
+  margin-bottom: 5.867vw;
+}
+
+.contacto button {
+  background-color: #fff;
+  margin-bottom: 11.73vw;
+}
+
+.contacto hr {
+  width: 35.73vw;
+  border: 1.3vw solid #0d151e;
+  border-radius: 2.667vw;
+}
+
+textarea:focus::placeholder {
+  color: transparent;
+}
+
+.grupo-boton {
+  margin-top: 2.78vw;
+  margin-bottom: 5vw;
+}
+
+.ocultarmob {
+  visibility: hidden;
+  position: absolute;
+}
+
+li.idioma {
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 4vw;
+  border-style: none;
+  width: 80.8vw;
+  height: 17.6vw;
+  background-color: #f7f7f9;
+  border-radius: 2.13vw;
+  margin-top: 3.2vw;
+  margin-bottom: 3.2vw;
+}
+
+li.idioma img {
+  margin-left: 3.2vw;
+  width: 12.8vw;
+}
+
+.contacto {
+  background-color: #fff;
+}
+
+.fondo {
+  border-top-left-radius: 21.3vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right 6.4vw;
+  align-items: center;
+  background-color: #6070ff;
+  background-image: url(media/mobile1.png);
+}
+
+.contacto h2 {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 27.467vw;
+  line-height: 52px;
+  font-weight: 700;
+}
+
+.contacto input {
+  width: 87.2vw;
+  height: 12.8vw;
+  background: #fff;
+  border: 0.267vw solid #cfd8dc;
+  border-radius: 2.13vw;
+  font-size: 4.53vw;
+  margin-bottom: 5.3vw;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+button:active {
+  color: #fff;
+  background: #2230d2;
+}
+
+button:disabled {
+  background-color: transparent;
+  color: #5e6c84;
+  border-color: #c1c7d0;
+}
+
+#nohay {
+  display: block;
+}
+
+.mobile-only {
+  display: block; /* Mostrar en la versión móvil */
+}
+
+.desktop-only {
+  display: none; /* Ocultar en la versión de escritorio */
+}
+
+@media (min-width: 768px) {
+  .escritorio {
+    visibility: visible;
+    position: static;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26.6px;
+    gap: 24px;
+    color: #344563;
+  }
+
+  .media {
+    margin: 0 10.764vw 0;
+  }
+
+  .mobile-only {
+    display: none; /* Ocultar en la versión de escritorio */
+  }
+
+  .desktop-only {
+    display: block; /* Mostrar en la versión de escritorio */
+    margin-left: -10px;
+  }
+
+  h2 {
+    font-size: 1.25vw;
+    margin: 0;
+    padding-top: 1.806vw;
+    padding-bottom: 1.806vw;
+  }
+
+  #menu-boton {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .enter {
+    background-image: url(media/escritorio1.png);
+    background-position: center;
+    border-bottom-left-radius: 10vw;
+  }
+
+  .enter-margen {
+    margin-left: 18.056vw;
+  }
+
+  .h1-media {
+    font-size: 3.3vw;
+    line-height: 4.167vw;
+    letter-spacing: 0.026vw;
+    padding-top: 20vw;
+    max-width: none;
+    margin-left: 18.056vw;
+  }
+
+  div.enter .info {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.389vw;
+    line-height: 1.94vw;
+    max-width: 74ch;
+    margin-top: 0.83vw;
+    margin-bottom: 0.83vw;
+  }
+
+  .clase p {
+    font-size: 0.83vw;
+    padding: 0.278vw 0.83vw;
+  }
+
+  .contacto p {
+    font-size: 1.389vw;
+    line-height: 1.94vw;
+    width: 39.514vw;
+    margin: 0 0 1.66vw 0;
+  }
+
+  div.conectar h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vw;
+    margin-top: 0;
+    margin-bottom: 0.972vw;
+  }
+
+  .iconos {
+    margin-left: 5px;
+    gap: 1.389vw;
+    margin-top: 20px;
+  }
+
+  .enter .conectar {
+    margin-bottom: 17.708vw;
+  }
+
+  .tarjetas {
+    margin: 6.861vw;
+  }
+
+  .trabajo {
+    border-radius: 1.667vw;
+  }
+
+  .ocultarmob {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .mostrar {
+    visibility: visible;
+    position: static;
+  }
+
+  .foto-izquierda {
+    justify-content: space-between;
+  }
+
+  .articulo-trabajo {
+    margin: 0;
+  }
+
+  .trabajo-imagen {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .escritorio-trabajo-foto {
+    width: 38.472vw;
+    height: 31.1vw;
+    visibility: visible;
+    position: static;
+    margin: 1.667vw 3.194vw 1.667vw 1.667vw;
+  }
+
+  .empresa li {
+    margin: 0 0.83vw 0 0;
+  }
+
+  .trabajo .empresa h4 {
+    font-size: 1.25vw;
+  }
+
+  .acerca ul li p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.389vw;
+    line-height: 1.667vw;
+    padding: 1.667vw 0;
+    margin: 0;
+  }
+
+  .trabajo .empresa p {
+    font-size: 1.25vw;
+  }
+
+  .tamaño {
+    margin-bottom: 90px;
+  }
+
+  .trabajo-informacion {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 1.667vw;
+    margin-bottom: 1.94vw;
+    margin-top: 15px;
+    width: 50ch;
+  }
+
+  .clase li {
+    border-radius: 0.556vw;
+    margin-right: 0.556vw;
+  }
+
+  .escritorio-trabajo-foto-izquierda {
+    width: 38.472vw;
+    height: 31.1vw;
+    visibility: visible;
+    position: static;
+    margin: 1.667vw 1.667vw 1.667vw 3.194vw;
+  }
+
+  .nav-link {
+    color: #344563;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  #leng {
+    margin-top: 12px;
+  }
+
+  #sigue2 {
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-top: 36px;
+    margin-right: 2vw;
+  }
+
+  #frameworks {
+    margin-top: -30px;
+  }
+
+  #sigue3 {
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-top: -30px;
+    margin-right: 2vw;
+  }
+
+  div.trabajo {
+    flex-direction: row;
+  }
+
+  .trabajo-apunte {
+    margin-top: 3.3vw;
+  }
+
+  .foto-izquierda .trabajo-apunte {
+    margin-left: 3.3vw;
+  }
+
+  .trabajo h3 {
+    font-size: 2.778vw;
+    margin-bottom: 5px;
+    margin-left: -5px;
+  }
+
+  .empresa {
+    margin-bottom: 20px;
+  }
+
+  .acerca {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 11.528vw;
+    border-top-right-radius: 10vw;
+    margin-top: -70px;
+  }
+
+  .acerca-info {
+    margin: 11.528vw 0 0 9.931vw;
+  }
+
+  .acerca h3 {
+    font-size: 2.778vw;
+    margin: 0;
+    padding: 0 0 0.83vw 0;
+  }
+
+  .acerca p.grafia {
+    font-size: 1.1vw;
+    line-height: 1.667vw;
+    margin: 0;
+    padding: 0 0 0.83vw 0;
+  }
+
+  .acerca .conectar {
+    margin: 0;
+  }
+
+  .grupo-boton {
+    margin: 35px 0;
+  }
+
+  .acerca .grupo-boton {
+    margin-top: 2.361vw;
+  }
+
+  .acerca-conocimiento ul.margen {
+    margin: 9.861vw 9.861vw 0 2.5vw;
+  }
+
+  li.conocimiento {
+    width: 47.5vw;
+  }
+
+  .acerca ul li.primero {
+    border: none;
+  }
+
+  button {
+    font-style: normal;
+    font-weight: 500;
+    align-items: center;
+    text-align: center;
+    padding: 0.83vw;
+    border: 1px solid #396df2;
+    border-radius: 0.556vw;
+    color: #396df2;
+    background-color: transparent;
+    font-size: 1.181vw;
+    line-height: 1.667vw;
+  }
+
+  .acerca ul li.idioma p {
+    font-size: 1.389vw;
+    line-height: 1.389vw;
+    padding: 1.1vw 0.83vw 1.389vw 0.83vw;
+    margin: 0;
+  }
+
+  .fondo {
+    background-image: url(media/fondoescr.png);
+  }
+
+  .contacto h2 {
+    font-size: 2.778vw;
+    margin: 9.861vw 22.2vw 0.83vw;
+    padding: 0;
+  }
+
+  .contacto form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0;
+  }
+
+  .contacto input {
+    width: 31.042vw;
+    font-size: 1.181vw;
+    height: 3.333vw;
+    background: #fff;
+    border: 0.267vw solid #cfd8dc;
+    border-radius: 0.139vw;
+    margin-bottom: 1.875vw;
+  }
+
+  .contacto textarea {
+    width: 31.042vw;
+    height: 11.806vw;
+    border-radius: 0.139vw;
+    font-size: 1.181vw;
+    margin-bottom: 1.875vw;
+    line-height: 1.667vw;
+    background: #fff;
+    border: 0.267vw solid #cfd8dc;
+  }
+
+  .contacto div button {
+    width: 9.861vw;
+  }
+
+  #boton {
+    margin-left: 100px;
+  }
+
+  .acerca ul li.primero p {
+    padding-bottom: 0;
+  }
+
+  img#sigue {
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-right: 2vw;
+  }
+
+  .idioma-grupo {
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+  }
+
+  li.idioma {
+    flex-direction: column;
+    align-items: start;
+    width: auto;
+    height: auto;
+    margin-right: 0.833vw;
+  }
+
+  li.idioma img {
+    width: 3.3vw;
+    margin: 0;
+    padding: 0.83vw 4.306vw 1.1vw 0.83vw;
+  }
+
+  /* PRIMERA CARD ESCRITORIO POP UP */
+
+  .modal { /* Padre */
+    position: fixed;
+    top: 0; /* Poner propiedad de blur aca */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s 0.5s;
+
+    --transform: translateY(-100vh);
+    --transition: transform 0.3s 1s;
+  }
+
+  .modal--show { /* Nos permite visibilizarlo cuando colocamos esta clase al lado de
+                          la clase en html modal */
+
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity 0.4s;
+
+    --transform: translateY(0);
+    --transition: transform 0.3s 1s;
+  }
+
+  .modal_container { /* hijo */
+    margin: auto;
+    width: 1156px;
+    height: 1163px;
+    background-color: white;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    border: 1px solid #ebecf0;
+    border-radius: 16px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+    transform: var(--transform);
+    transition: var(--transition);
+  }
+
+  .modal_title {
+    margin-top: -1340px;
+    margin-bottom: 30px;
+    margin-left: -1090px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  #canopyesc {
+    margin-left: -595px;
+  }
+
+  .punto1 {
+    list-style-type: none;
+    margin-left: -520px;
+    margin-top: -43px;
+  }
+
+  .backend {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #7a869a;
+    margin-left: -500px;
+    margin-top: -36px;
+  }
+
+  .punto2 {
+    list-style-type: none;
+    margin-left: -390px;
+    margin-top: -38px;
+  }
+
+  .año {
+    list-style-type: none;
+    margin-left: -370px;
+    margin-top: -37px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #7a869a;
+  }
+
+  .modal_paragraph {
+    margin-top: 70px;
+    margin-left: -390px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+  }
+
+  .modal_img {
+    width: 1190px;
+    height: 586px;
+    margin-top: 0;
+  }
+
+  .modal-close {
+    margin-top: -2150px;
+    margin-right: -1150px;
+    transition: background-color 0.3s;
+  }
+
+  .modal-close:hover {
+    color: #6070ff;
+    background-color: #6070ff;
+  }
+
+  .cajahtml {
+    margin-top: -615px;
+    margin-left: 620px;
+  }
+
+  .cajacss {
+    margin-top: -647px;
+    margin-left: 740px;
+  }
+
+  .cajajavascript {
+    margin-top: -682px;
+    margin-left: 900px;
+  }
+
+  .cajaruby {
+    margin-top: -640px;
+    margin-left: 620px;
+  }
+
+  .cajabootstrap {
+    margin-top: -672px;
+    margin-left: 775px;
+  }
+
+  .linea {
+    margin-top: -635px;
+    margin-left: 869px;
+    border: 1px solid #ebecf0;
+  }
+
+  .seelive {
+    align-items: center;
+    text-align: center;
+    margin-top: -580px;
+    margin-left: 710px;
+    width: 142px;
+    height: 40px;
+    left: 5px;
+    bottom: 16px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #396df2;
+    background-color: #fff;
+  }
+
+  .fader {
+    margin-top: -612px;
+    margin-left: 800px;
+  }
+
+  .seesource {
+    align-items: center;
+    margin-top: -645px;
+    margin-left: 1040px;
+    width: 142px;
+    height: 40px;
+    left: 5px;
+    bottom: 16px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #396df2;
+    text-align: center;
+    background-color: #fff;
+  }
+
+  .githubicon {
+    width: 17.99px;
+    height: 20px;
+    margin-top: -675px;
+    margin-left: 1140px;
+  }
+
+  /* SEGUNDA CARD ESCRITORIO */
+
+  .modal1 { /* Padre */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s 0.5s;
+
+    --transform: translateY(-100vh);
+    --transition: transform 0.3s 1s;
+  }
+
+  .modal-close1 {
+    margin-top: -2155px;
+    margin-right: -1150px;
+    transition: background-color 0.3s;
+  }
+
+  .modal-close1:hover {
+    color: #6070ff;
+    background-color: #6070ff;
+  }
+
+  .modal--show1 { /* Nos permite visibilizarlo cuando colocamos esta clase al lado de
+    la clase en html modal */
+
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity 0.4s;
+
+    --transform: translateY(0);
+    --transition: transform 0.3s 1s;
+  }
+
+  .modal_title1 {
+    margin-top: -1300px;
+    margin-bottom: 60px;
+    margin-left: -830px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .punto3 {
+    list-style-type: none;
+    margin-left: -500px;
+    margin-top: -38px;
+  }
+
+  .punto4 {
+    list-style-type: none;
+    margin-left: -370px;
+    margin-top: -38px;
+  }
+
+  .backend1 {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #7a869a;
+    margin-left: -480px;
+    margin-top: -36px;
+  }
+
+  .año1 {
+    list-style-type: none;
+    margin-left: -350px;
+    margin-top: -36px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #7a869a;
+  }
+
+  #canopyesc1 {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    margin-left: -590px;
+    margin-top: 40px;
+  }
+
+  /* TERCERA CARD ESCRITORIO */
+
+  .modal2 { /* Padre */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s 0.5s;
+
+    --transform: translateY(-100vh);
+    --transition: transform 0.3s 1s;
+  }
+
+  .modal-close2 {
+    margin-top: -2155px;
+    margin-right: -1150px;
+    transition: background-color 0.3s;
+  }
+
+  .modal-close2 :hover {
+    color: #6070ff;
+    background-color: #6070ff;
+  }
+
+  .modal_title2 {
+    margin-top: -1340px;
+    margin-bottom: 40px;
+    margin-left: -900px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .modal--show2 { /* Nos permite visibilizarlo cuando colocamos esta clase al lado de
+    la clase en html modal */
+
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity 0.4s;
+
+    --transform: translateY(0);
+    --transition: transform 0.3s 1s;
+  }
+
+  .canopyesc2 {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    margin-left: -590px;
+    margin-top: 40px;
+  }
+
+  /* ESCRITORIO CUARTA CARD */
+
+  .modal3 { /* Padre */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s 0.5s;
+
+    --transform: translateY(-100vh);
+    --transition: transform 0.3s 1s;
+  }
+
+  .modal-close3 {
+    margin-top: -2155px;
+    margin-right: -1150px;
+    transition: background-color 0.3s;
+  }
+
+  .modal-close3:hover {
+    color: #6070ff;
+    background-color: #6070ff;
+  }
+
+  .modal--show3 { /* Nos permite visibilizarlo cuando colocamos esta clase al lado de
+  la clase en html modal */
+
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity 0.4s;
+
+    --transform: translateY(0);
+    --transition: transform 0.3s 1s;
+  }
+
+  .uber_title {
+    margin-top: -1340px;
+    margin-bottom: 40px;
+    margin-left: -860px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+
+  .punto7 {
+    list-style-type: none;
+    margin-left: -545px;
+    margin-top: -37px;
+  }
+
+  .punto8 {
+    list-style-type: none;
+    margin-left: -400px;
+    margin-top: -38px;
+  }
+
+  .backend3 {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #7a869a;
+    margin-left: -530px;
+    margin-top: -35px;
+  }
+
+  .año2 {
+    list-style-type: none;
+    margin-left: -382px;
+    margin-top: -37px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #7a869a;
+  }
+
+  #canopyesc3 {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    margin-top: 35px;
+    margin-left: -590px;
+  }
+
+  .mobile-modal {  /* APAGAR CARD 1 MOBILE EN ESCRITORIO */
+    display: none;
+  }
+
+  .mobile-modal1 { /* APAGAR CARD 2 MOBILE EN ESCRITORIO */
+    display: none;
+  }
+
+  .mobile-modal2 { /* APAGAR CARD 3 MOBILE EN ESCRITORIO */
+    display: none;
+  }
+
+  .mobile-modal3 { /* APAGAR CARD 4 MOBILE EN ESCRITORIO */
+    display: none;
+  }
+
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nohay {
+    display: none; /* no visible en version mobile */
+  }
+
+  .sihay {
+    display: block; /* Visible en mobile */
+  }
+
+  .hamburguer {
+    display: block;
+  }
+
+  .hrupo .bar:hover {
+    background: white;
+  }
+
+  .hamburguer.active .bar:nth-child(2) {
+    opacity: 0;
+    background: white;
+    margin-right: -30px;
+    margin-left: 60px;
+  }
+
+  .hamburguer.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    background: white;
+    margin-right: -30px;
+    margin-left: 60px;
+  }
+
+  .hamburguer.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    background: white;
+    margin-right: -30px;
+    margin-left: 60px;
+  }
+
+  .nav-menu {
+    position: fixed; /* Background menu */
+    left: -100%;
+    top: 1px;
+    bottom: 0;
+    gap: 0;
+    flex-direction: column;
+    background-color: #6070ff;
+    backdrop-filter: blur(0.5rem);
+    mix-blend-mode: multiply;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item { /* Portafolio */
+    margin: 100px 0;
+    margin-left: 10px;
+  }
+
+  .nav-item2 { /* About */
+    margin-top: -80px;
+    margin-left: -30px;
+  }
+
+  .nav-item3 {
+    margin-top: 25px;
+  }
+
+  .nav-link {  /* Mover todos los nav-link a la izquierda */
+    margin-left: -210px;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  /* APAGAR VERSION ESCRITORIO */
+
+  .modal {
+    display: none; /* CARD 1 APAGADA */
+  }
+
+  .modal1 {
+    display: none;
+  }
+
+  .modal2 {
+    display: none;
+  }
+
+  .modal3 {
+    display: none;
+  }
+
+  /* Mobile version */
+
+  /* MOBILE CARD 1 */
+
+  .mobile-modal {
+    position: fixed; /* Poner propiedad de blur aca */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s;
+  }
+
+  .mobile-modal--show {
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity 0.6s;
+  }
+
+  .mobile-modal-container {
+    margin: auto;
+    width: 90%;
+    max-width: 343px;
+    max-height: 90%;
+    height: 713px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    display: grid; /* OJOO ACA */
+    place-items: center;
+  }
+
+  .title-modal-mobile {
+    max-width: 90%;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    margin-left: -225px;
+    margin-top: 15px;
+  }
+
+  .mobile-modal-paragraph {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+    margin-top: -20px;
+  }
+
+  .mobile-modal-img {
+    width: 90%;
+    max-width: 311px;
+    max-height: 90%;
+    height: 220px;
+    margin-top: 0;
+  }
+
+  .mobile-modal-close {
+    text-decoration: none;
+    margin-left: 280px;
+    margin-top: -1030px;
+    transition: background-color 0.3s;
+  }
+
+  .mobile-modal-close:hover {
+    background-color: #6070ff;
+  }
+
+  .todo-mobile {
+    margin-left: 34px;
+    margin-bottom: -15px;
+  }
+
+  #modal-mobile-canopy {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #344563;
+    margin-left: -125px;
+    margin-top: -50px;
+  }
+
+  .subtitle-modal-mobile {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+    margin-top: -32px;
+    margin-left: -52px;
+  }
+
+  .mobile-punto-modal {
+    list-style: none;
+    margin-top: -36px;
+    margin-left: -65px;
+  }
+
+  .mobile-punto-modal2 {
+    list-style-type: none;
+    margin-top: -36px;
+    margin-left: 43px;
+  }
+
+  .mobile-modal-año {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+    margin-top: -31px;
+    margin-left: 57px;
+  }
+
+  .mobile-modal-html {
+    margin-left: -255px;
+  }
+
+  .mobile-modal-css {
+    margin-left: -135px;
+    margin-top: -28px;
+  }
+
+  .mobile-modal-javascript {
+    margin-left: 22px;
+    margin-top: -28px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-seelive {
+    width: 136px;
+    height: 48px;
+    left: 9px;
+    bottom: 4px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    color: #396df2;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 30px;
+    margin-left: -160px;
+    background-color: #fff;
+  }
+
+  .mobile-modal-fader {
+    margin-top: -50px;
+    margin-left: -73px;
+  }
+
+  #github-mobile {
+    width: 17.99px;
+    height: 20px;
+    margin-left: 250px;
+    margin-top: -100px;
+  }
+
+  .mobile-seesource {
+    width: 136px;
+    height: 48px;
+    left: 9px;
+    bottom: 4px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #396df2;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: -53px;
+    margin-bottom: 25px;
+    margin-left: 150px;
+  }
+
+  /* MOBILE CARD 2 */
+
+  .mobile-modal1 {
+    position: fixed; /* Poner propiedad de blur aca */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s;
+  }
+
+  .mobile-modal--show1 {
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity 0.6s;
+  }
+
+  .title-modal-mobile1 {
+    max-width: 90%;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    margin-top: 15px;
+    margin-left: -135px;
+  }
+
+  .mobile-modal-close1 {
+    text-decoration: none;
+    margin-left: 280px;
+    margin-top: -1100px;
+    transition: background-color 0.3s;
+  }
+
+  .mobile-modal-close1:hover {
+    background-color: #6070ff;
+  }
+
+  #modal-mobile-canopy1 {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #344563;
+    margin-left: -165px;
+    margin-top: -45px;
+  }
+
+  .mobile-punto-modal01 {
+    list-style-type: none;
+    margin-top: -35px;
+    margin-left: -64px;
+  }
+
+  .mobile-punto-modal02 {
+    list-style-type: none;
+    margin-top: -35px;
+    margin-left: 42px;
+  }
+
+  .mobile-modal-año01 {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+    margin-top: -31px;
+    margin-left: 55px;
+  }
+
+  .mobile-modal-html01 {
+    margin-left: -255px;
+  }
+
+  .mobile-modal-css01 {
+    margin-left: -135px;
+    margin-top: -25px;
+  }
+
+  .mobile-modal-javascript01 {
+    margin-left: 22px;
+    margin-top: -24px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-seelive01 {
+    width: 136px;
+    height: 48px;
+    left: 9px;
+    bottom: 4px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    color: #396df2;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -160px;
+    background-color: #fff;
+  }
+
+  .mobile-seesource01 {
+    width: 136px;
+    height: 48px;
+    left: 9px;
+    bottom: 4px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #396df2;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: -68px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+  }
+
+  #github-mobile01 {
+    width: 17.99px;
+    height: 20px;
+    margin-left: 250px;
+    margin-top: -89px;
+  }
+
+  .mobile-modal-fader01 {
+    margin-top: -89px;
+    margin-left: -73px;
+  }
+
+  /* MOBILE CARD 3 */
+
+  .mobile-modal2 {
+    position: fixed; /* Poner propiedad de blur aca */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s;
+  }
+
+  .mobile-modal--show2 {
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity 0.6s;
+  }
+
+  .mobile-modal-close2 {
+    text-decoration: none;
+    margin-left: 280px;
+    margin-top: -1030px;
+    transition: background-color 0.3s;
+  }
+
+  .title-modal-mobile2 {
+    max-width: 90%;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    margin-top: 15px;
+    margin-left: -225px;
+  }
+
+  .mobile-modal-css02 {
+    margin-left: -135px;
+    margin-top: -30px;
+  }
+
+  .mobile-modal-javascript02 {
+    margin-left: 22px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-seesource02 {
+    width: 136px;
+    height: 48px;
+    left: 9px;
+    bottom: 4px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #396df2;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: -80px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+  }
+
+  .mobile-modal-fader02 {
+    margin-top: -94px;
+    margin-left: -73px;
+  }
+
+  #github-mobile02 {
+    width: 17.99px;
+    height: 20px;
+    margin-left: 250px;
+    margin-top: -108px;
+  }
+
+  /* MOBILE CUARTA CARD */
+
+  .mobile-modal3 {
+    position: fixed; /* Poner propiedad de blur aca */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s;
+  }
+
+  .mobile-modal--show3 {
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity 0.6s;
+  }
+
+  .mobile-modal-close3 {
+    text-decoration: none;
+    margin-left: 280px;
+    margin-top: -1090px;
+    transition: background-color 0.3s;
+  }
+
+  .title-modal-mobile3 {
+    max-width: 90%;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    margin-top: 15px;
+    margin-left: -136px;
+    margin-bottom: 30px;
+  }
+
+  .mobile-modal-css03 {
+    margin-left: -135px;
+    margin-top: -23px;
+  }
+
+  .mobile-modal-javascript03 {
+    margin-left: 22px;
+    margin-top: -24px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-seesource03 {
+    width: 136px;
+    height: 48px;
+    left: 9px;
+    bottom: 4px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #396df2;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: -70px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+  }
+
+  .mobile-modal-fader03 {
+    margin-top: -89px;
+    margin-left: -73px;
+  }
+
+  #github-mobile03 {
+    width: 17.99px;
+    height: 20px;
+    margin-left: 250px;
+    margin-top: -90px;
+  }
+
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+}
