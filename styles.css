@@ -26,6 +26,10 @@ body {
   margin-right: 6.4vw;
 }
 
+.contactme {
+  margin-bottom: -5px;
+}
+
 header {
   background-color: #fff; /* Cambios */
 }
@@ -36,7 +40,7 @@ li {
 
 a {
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
@@ -89,7 +93,7 @@ h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  margin-left: -20px;
+  margin-left: -7%;
 }
 
 ul {
@@ -155,7 +159,6 @@ h1 {
   font-weight: 400;
   line-height: 6.4vw;
   color: #344563;
-  padding-left: 6px;
 }
 
 p.espacio {
@@ -867,6 +870,477 @@ button:disabled {
     margin: 0;
     padding: 0.83vw 4.306vw 1.1vw 0.83vw;
   }
+
+  /* PRIMERA CARD ESCRITORIO POP UP */
+
+  .modal { /* Padre */
+    position: fixed;
+    top: 0; /* Poner propiedad de blur aca */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s 0.5s;
+
+    --transform: translateY(-100vh);
+    --transition: transform 0.3s 1s;
+  }
+
+  .modal--show { /* Nos permite visibilizarlo cuando colocamos esta clase al lado de
+                          la clase en html modal */
+
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity 0.4s;
+
+    --transform: translateY(0);
+    --transition: transform 0.3s 1s;
+  }
+
+  .modal_container { /* hijo */
+    margin: auto;
+    width: 1156px;
+    height: 1163px;
+    background-color: white;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    border: 1px solid #ebecf0;
+    border-radius: 16px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+    transform: var(--transform);
+    transition: var(--transition);
+  }
+
+  .modal_title {
+    margin-top: -1340px;
+    margin-bottom: 30px;
+    margin-left: -1090px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  #canopyesc {
+    margin-left: -595px;
+  }
+
+  .punto1 {
+    list-style-type: none;
+    margin-left: -520px;
+    margin-top: -43px;
+  }
+
+  .backend {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #7a869a;
+    margin-left: -500px;
+    margin-top: -36px;
+  }
+
+  .punto2 {
+    list-style-type: none;
+    margin-left: -390px;
+    margin-top: -38px;
+  }
+
+  .año {
+    list-style-type: none;
+    margin-left: -370px;
+    margin-top: -37px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #7a869a;
+  }
+
+  .modal_paragraph {
+    margin-top: 70px;
+    margin-left: -390px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+  }
+
+  .modal_img {
+    width: 1190px;
+    height: 586px;
+    margin-top: 0;
+  }
+
+  .modal-close {
+    margin-top: -2150px;
+    margin-right: -1150px;
+    transition: background-color 0.3s;
+  }
+
+  .modal-close:hover {
+    color: #6070ff;
+    background-color: #6070ff;
+  }
+
+  .cajahtml {
+    margin-top: -615px;
+    margin-left: 620px;
+  }
+
+  .cajacss {
+    margin-top: -647px;
+    margin-left: 740px;
+  }
+
+  .cajajavascript {
+    margin-top: -682px;
+    margin-left: 900px;
+  }
+
+  .cajaruby {
+    margin-top: -640px;
+    margin-left: 620px;
+  }
+
+  .cajabootstrap {
+    margin-top: -672px;
+    margin-left: 775px;
+  }
+
+  .linea {
+    margin-top: -635px;
+    margin-left: 869px;
+    border: 1px solid #ebecf0;
+  }
+
+  .seelive {
+    align-items: center;
+    text-align: center;
+    margin-top: -580px;
+    margin-left: 710px;
+    width: 142px;
+    height: 40px;
+    left: 5px;
+    bottom: 16px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #396df2;
+    background-color: #fff;
+  }
+
+  .fader {
+    margin-top: -612px;
+    margin-left: 800px;
+  }
+
+  .seesource {
+    align-items: center;
+    margin-top: -645px;
+    margin-left: 1040px;
+    width: 142px;
+    height: 40px;
+    left: 5px;
+    bottom: 16px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #396df2;
+    text-align: center;
+    background-color: #fff;
+  }
+
+  .githubicon {
+    width: 17.99px;
+    height: 20px;
+    margin-top: -675px;
+    margin-left: 1140px;
+  }
+
+  /* SEGUNDA CARD ESCRITORIO */
+
+  .modal1 { /* Padre */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s 0.5s;
+
+    --transform: translateY(-100vh);
+    --transition: transform 0.3s 1s;
+  }
+
+  .modal-close1 {
+    margin-top: -2155px;
+    margin-right: -1150px;
+    transition: background-color 0.3s;
+  }
+
+  .modal-close1:hover {
+    color: #6070ff;
+    background-color: #6070ff;
+  }
+
+  .modal--show1 { /* Nos permite visibilizarlo cuando colocamos esta clase al lado de
+    la clase en html modal */
+
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity 0.4s;
+
+    --transform: translateY(0);
+    --transition: transform 0.3s 1s;
+  }
+
+  .modal_title1 {
+    margin-top: -1300px;
+    margin-bottom: 60px;
+    margin-left: -830px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .punto3 {
+    list-style-type: none;
+    margin-left: -500px;
+    margin-top: -38px;
+  }
+
+  .punto4 {
+    list-style-type: none;
+    margin-left: -370px;
+    margin-top: -38px;
+  }
+
+  .backend1 {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #7a869a;
+    margin-left: -480px;
+    margin-top: -36px;
+  }
+
+  .año1 {
+    list-style-type: none;
+    margin-left: -350px;
+    margin-top: -36px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #7a869a;
+  }
+
+  #canopyesc1 {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    margin-left: -590px;
+    margin-top: 40px;
+  }
+
+  /* TERCERA CARD ESCRITORIO */
+
+  .modal2 { /* Padre */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s 0.5s;
+
+    --transform: translateY(-100vh);
+    --transition: transform 0.3s 1s;
+  }
+
+  .modal-close2 {
+    margin-top: -2155px;
+    margin-right: -1150px;
+    transition: background-color 0.3s;
+  }
+
+  .modal-close2 :hover {
+    color: #6070ff;
+    background-color: #6070ff;
+  }
+
+  .modal_title2 {
+    margin-top: -1340px;
+    margin-bottom: 40px;
+    margin-left: -900px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .modal--show2 { /* Nos permite visibilizarlo cuando colocamos esta clase al lado de
+    la clase en html modal */
+
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity 0.4s;
+
+    --transform: translateY(0);
+    --transition: transform 0.3s 1s;
+  }
+
+  .canopyesc2 {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    margin-left: -590px;
+    margin-top: 40px;
+  }
+
+  /* ESCRITORIO CUARTA CARD */
+
+  .modal3 { /* Padre */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s 0.5s;
+
+    --transform: translateY(-100vh);
+    --transition: transform 0.3s 1s;
+  }
+
+  .modal-close3 {
+    margin-top: -2155px;
+    margin-right: -1150px;
+    transition: background-color 0.3s;
+  }
+
+  .modal-close3:hover {
+    color: #6070ff;
+    background-color: #6070ff;
+  }
+
+  .modal--show3 { /* Nos permite visibilizarlo cuando colocamos esta clase al lado de
+  la clase en html modal */
+
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity 0.4s;
+
+    --transform: translateY(0);
+    --transition: transform 0.3s 1s;
+  }
+
+  .uber_title {
+    margin-top: -1340px;
+    margin-bottom: 40px;
+    margin-left: -860px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+
+  .punto7 {
+    list-style-type: none;
+    margin-left: -545px;
+    margin-top: -37px;
+  }
+
+  .punto8 {
+    list-style-type: none;
+    margin-left: -400px;
+    margin-top: -38px;
+  }
+
+  .backend3 {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #7a869a;
+    margin-left: -530px;
+    margin-top: -35px;
+  }
+
+  .año2 {
+    list-style-type: none;
+    margin-left: -382px;
+    margin-top: -37px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #7a869a;
+  }
+
+  #canopyesc3 {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    margin-top: 35px;
+    margin-left: -590px;
+  }
+
+  .mobile-modal {  /* APAGAR CARD 1 MOBILE EN ESCRITORIO */
+    display: none;
+  }
+
+  .mobile-modal1 { /* APAGAR CARD 2 MOBILE EN ESCRITORIO */
+    display: none;
+  }
+
+  .mobile-modal2 { /* APAGAR CARD 3 MOBILE EN ESCRITORIO */
+    display: none;
+  }
+
+  .mobile-modal3 { /* APAGAR CARD 4 MOBILE EN ESCRITORIO */
+    display: none;
+  }
+
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -907,7 +1381,6 @@ button:disabled {
     margin-left: 60px;
   }
 
-  /* ACA ESCRIBI FORROO */
   .nav-menu {
     position: fixed; /* Background menu */
     left: -100%;
@@ -916,7 +1389,7 @@ button:disabled {
     gap: 0;
     flex-direction: column;
     background-color: #6070ff;
-    backdrop-filter: blur(0.4rem);
+    backdrop-filter: blur(0.5rem);
     mix-blend-mode: multiply;
     width: 100%;
     text-align: center;
@@ -929,12 +1402,12 @@ button:disabled {
   }
 
   .nav-item2 { /* About */
-    margin-top: -70px;
+    margin-top: -80px;
     margin-left: -30px;
   }
 
   .nav-item3 {
-    margin-top: 35px;
+    margin-top: 25px;
   }
 
   .nav-link {  /* Mover todos los nav-link a la izquierda */
@@ -943,5 +1416,506 @@ button:disabled {
 
   .nav-menu.active {
     left: 0;
+  }
+
+  /* APAGAR VERSION ESCRITORIO */
+
+  .modal {
+    display: none; /* CARD 1 APAGADA */
+  }
+
+  .modal1 {
+    display: none;
+  }
+
+  .modal2 {
+    display: none;
+  }
+
+  .modal3 {
+    display: none;
+  }
+
+  /* Mobile version */
+
+  /* MOBILE CARD 1 */
+
+  .mobile-modal {
+    position: fixed; /* Poner propiedad de blur aca */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s;
+  }
+
+  .mobile-modal--show {
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity 0.6s;
+  }
+
+  .mobile-modal-container {
+    margin: auto;
+    width: 90%;
+    max-width: 343px;
+    max-height: 90%;
+    height: 713px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    display: grid; /* OJOO ACA */
+    place-items: center;
+  }
+
+  .title-modal-mobile {
+    max-width: 90%;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    margin-left: -225px;
+    margin-top: 15px;
+  }
+
+  .mobile-modal-paragraph {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+    margin-top: -20px;
+  }
+
+  .mobile-modal-img {
+    width: 90%;
+    max-width: 311px;
+    max-height: 90%;
+    height: 220px;
+    margin-top: 0;
+  }
+
+  .mobile-modal-close {
+    text-decoration: none;
+    margin-left: 280px;
+    margin-top: -1030px;
+    transition: background-color 0.3s;
+  }
+
+  .mobile-modal-close:hover {
+    background-color: #6070ff;
+  }
+
+  .todo-mobile {
+    margin-left: 34px;
+    margin-bottom: -15px;
+  }
+
+  #modal-mobile-canopy {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #344563;
+    margin-left: -125px;
+    margin-top: -50px;
+  }
+
+  .subtitle-modal-mobile {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+    margin-top: -32px;
+    margin-left: -52px;
+  }
+
+  .mobile-punto-modal {
+    list-style: none;
+    margin-top: -36px;
+    margin-left: -65px;
+  }
+
+  .mobile-punto-modal2 {
+    list-style-type: none;
+    margin-top: -36px;
+    margin-left: 43px;
+  }
+
+  .mobile-modal-año {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+    margin-top: -31px;
+    margin-left: 57px;
+  }
+
+  .mobile-modal-html {
+    margin-left: -255px;
+  }
+
+  .mobile-modal-css {
+    margin-left: -135px;
+    margin-top: -28px;
+  }
+
+  .mobile-modal-javascript {
+    margin-left: 22px;
+    margin-top: -28px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-seelive {
+    width: 136px;
+    height: 48px;
+    left: 9px;
+    bottom: 4px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    color: #396df2;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 30px;
+    margin-left: -160px;
+    background-color: #fff;
+  }
+
+  .mobile-modal-fader {
+    margin-top: -50px;
+    margin-left: -73px;
+  }
+
+  #github-mobile {
+    width: 17.99px;
+    height: 20px;
+    margin-left: 250px;
+    margin-top: -100px;
+  }
+
+  .mobile-seesource {
+    width: 136px;
+    height: 48px;
+    left: 9px;
+    bottom: 4px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #396df2;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: -53px;
+    margin-bottom: 25px;
+    margin-left: 150px;
+  }
+
+  /* MOBILE CARD 2 */
+
+  .mobile-modal1 {
+    position: fixed; /* Poner propiedad de blur aca */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s;
+  }
+
+  .mobile-modal--show1 {
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity 0.6s;
+  }
+
+  .title-modal-mobile1 {
+    max-width: 90%;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    margin-top: 15px;
+    margin-left: -135px;
+  }
+
+  .mobile-modal-close1 {
+    text-decoration: none;
+    margin-left: 280px;
+    margin-top: -1100px;
+    transition: background-color 0.3s;
+  }
+
+  .mobile-modal-close1:hover {
+    background-color: #6070ff;
+  }
+
+  #modal-mobile-canopy1 {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #344563;
+    margin-left: -165px;
+    margin-top: -45px;
+  }
+
+  .mobile-punto-modal01 {
+    list-style-type: none;
+    margin-top: -35px;
+    margin-left: -64px;
+  }
+
+  .mobile-punto-modal02 {
+    list-style-type: none;
+    margin-top: -35px;
+    margin-left: 42px;
+  }
+
+  .mobile-modal-año01 {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+    margin-top: -31px;
+    margin-left: 55px;
+  }
+
+  .mobile-modal-html01 {
+    margin-left: -255px;
+  }
+
+  .mobile-modal-css01 {
+    margin-left: -135px;
+    margin-top: -25px;
+  }
+
+  .mobile-modal-javascript01 {
+    margin-left: 22px;
+    margin-top: -24px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-seelive01 {
+    width: 136px;
+    height: 48px;
+    left: 9px;
+    bottom: 4px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    color: #396df2;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -160px;
+    background-color: #fff;
+  }
+
+  .mobile-seesource01 {
+    width: 136px;
+    height: 48px;
+    left: 9px;
+    bottom: 4px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #396df2;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: -68px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+  }
+
+  #github-mobile01 {
+    width: 17.99px;
+    height: 20px;
+    margin-left: 250px;
+    margin-top: -89px;
+  }
+
+  .mobile-modal-fader01 {
+    margin-top: -89px;
+    margin-left: -73px;
+  }
+
+  /* MOBILE CARD 3 */
+
+  .mobile-modal2 {
+    position: fixed; /* Poner propiedad de blur aca */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s;
+  }
+
+  .mobile-modal--show2 {
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity 0.6s;
+  }
+
+  .mobile-modal-close2 {
+    text-decoration: none;
+    margin-left: 280px;
+    margin-top: -1030px;
+    transition: background-color 0.3s;
+  }
+
+  .title-modal-mobile2 {
+    max-width: 90%;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    margin-top: 15px;
+    margin-left: -225px;
+  }
+
+  .mobile-modal-css02 {
+    margin-left: -135px;
+    margin-top: -30px;
+  }
+
+  .mobile-modal-javascript02 {
+    margin-left: 22px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-seesource02 {
+    width: 136px;
+    height: 48px;
+    left: 9px;
+    bottom: 4px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #396df2;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: -80px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+  }
+
+  .mobile-modal-fader02 {
+    margin-top: -94px;
+    margin-left: -73px;
+  }
+
+  #github-mobile02 {
+    width: 17.99px;
+    height: 20px;
+    margin-left: 250px;
+    margin-top: -108px;
+  }
+
+  /* MOBILE CUARTA CARD */
+
+  .mobile-modal3 {
+    position: fixed; /* Poner propiedad de blur aca */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s;
+  }
+
+  .mobile-modal--show3 {
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity 0.6s;
+  }
+
+  .mobile-modal-close3 {
+    text-decoration: none;
+    margin-left: 280px;
+    margin-top: -1090px;
+    transition: background-color 0.3s;
+  }
+
+  .title-modal-mobile3 {
+    max-width: 90%;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    margin-top: 15px;
+    margin-left: -136px;
+    margin-bottom: 30px;
+  }
+
+  .mobile-modal-css03 {
+    margin-left: -135px;
+    margin-top: -23px;
+  }
+
+  .mobile-modal-javascript03 {
+    margin-left: 22px;
+    margin-top: -24px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-seesource03 {
+    width: 136px;
+    height: 48px;
+    left: 9px;
+    bottom: 4px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #396df2;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: -70px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+  }
+
+  .mobile-modal-fader03 {
+    margin-top: -89px;
+    margin-left: -73px;
+  }
+
+  #github-mobile03 {
+    width: 17.99px;
+    height: 20px;
+    margin-left: 250px;
+    margin-top: -90px;
+  }
+
+  .error-message {
+    color: red;
+    margin-top: 5px;
   }
 }

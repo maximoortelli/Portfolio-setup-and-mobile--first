@@ -5,7 +5,7 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Portfolio mobile finish</title>
+     <title>My new portfolio Desktop</title>
      <link rel="stylesheet" href="styles.css">
 
  </head>
@@ -122,10 +122,11 @@
 
      </div>
 
+
      <section class="tarjetas">
 
 
-         <main class="trabajo tamaño flex-column ">
+         <div class="trabajo tamaño flex-column ">
 
              <img class="trabajo-imagen articulo-trabajo" src="media/trabajo3.png" alt="">
 
@@ -194,17 +195,18 @@
                  </ul>
 
                  <div class="grupo-boton">
-                    
-                     <button class="flex-row articulo-trabajo">See project</button>
+
+                     <!--BOTON PRIMERA CARD-->
+                     <button class="flex-row articulo-trabajo hero_cta mobile-modal-boton">See project</button>
 
                  </div>
 
              </div>
 
-         </main>
+         </div>
 
 
-         <main class="trabajo foto-izquierda tamaño flex-column">
+         <div class="trabajo foto-izquierda tamaño flex-column">
 
             <img class="trabajo-imagen articulo-trabajo" src="media/trabajo2.png" alt="">
 
@@ -292,7 +294,7 @@
 
                      <div class="grupo-boton">
                         
-                         <button class="flex-row articulo-trabajo">See project</button>
+                         <button class="flex-row articulo-trabajo hero_cta1 mobile-modal-boton1">See project</button>
 
                      </div>
 
@@ -302,10 +304,10 @@
 
             <img class="escritorio-trabajo-foto-izquierda" src="media/escritoriotrabajo2.png" alt="">
          
-         </main>
+         </div>
 
 
-         <main class="trabajo tamaño flex-column ">
+         <div class="trabajo tamaño flex-column ">
 
             <img src="media/otromas.png" alt="" class="trabajo-imagen articulo-trabajo">
 
@@ -397,16 +399,16 @@
 
                 <div class="grupo-boton">
                    
-                    <button class="flex-row articulo-trabajo">See project</button>
+                    <button class="flex-row articulo-trabajo hero_cta2 mobile-modal-boton2">See project</button>
 
                 </div>
 
             </div>
 
-         </main>
+         </div>
 
 
-         <main class="trabajo foto-izquierda tamaño flex-column">
+         <div class="trabajo foto-izquierda tamaño flex-column">
 
             <img class="trabajo-imagen articulo-trabajo" src="media/escritoriotrabajo2.png" alt="">
 
@@ -496,7 +498,7 @@
 
                      <div class="grupo-boton">
                         
-                         <button class="flex-row articulo-trabajo">See project</button>
+                         <button class="flex-row articulo-trabajo hero_cta3 mobile-modal-boton3">See project</button>
 
                      </div>
 
@@ -506,12 +508,12 @@
 
             <div id="imagen"><img src="media/escritoriotrabajo4.png" alt="" class="escritorio-trabajo-foto-izquierda"></div>
          
-         </main>
+         </div>
 
-
+            
      </section>
     
-     <section class="acerca">
+     <div class="acerca">
 
          <div class="acerca-info">
 
@@ -655,7 +657,39 @@
 
          </div>
 
-     </section>
+     </div>
+
+     <div class="contacto">
+
+         <div class="flex-column fondo">
+
+             <h2 class="margen contactme">Contact me</h2>
+
+             <p class="margen descrip">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!</p>
+
+             <form action="https://formspree.io/f/mayzvpoz" method="post" class="margen">
+
+                 <input type="text" name="name" maxlength="30" required placeholder="Lorem Ipsum">
+
+                 <input type="email" required placeholder="loremipsum@gmail.com">
+
+                 <textarea maxlength="500" rows="4" cols="50" required placeholder="Write your message here..."></textarea>
+
+                 <div>
+                    
+                     <button id="boton" type="submit" >
+                        
+                         Get in touch
+
+                     </button>
+
+                 </div>
+
+             </form>
+
+         </div>
+
+     </div>
 
  </body>
 
