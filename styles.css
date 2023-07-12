@@ -21,6 +21,11 @@ body {
   display: flex;
 }
 
+.margin {
+  margin-left: 6.4vw;
+  margin-right: 6.4vw;
+}
+
 header {
   background-color: #fff; /* Cambios */
 }
