@@ -4,7 +4,7 @@
   <img src="cat-black-face.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio: finish mobile version</b></h3>
+  <h3><b>Portfolio contact form and finish mobile version</b></h3>
 
 </div>
 
@@ -16,7 +16,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -33,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio: finish mobile version <a name="about-project"></a>
+# 📖 Portfolio contact form and finish mobile version. <a name="about-project"></a>
 
-  Proyect Review is an exercise where I will create my first review. The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
+  Portfolio contact form and finish mobile version is an exercise where I will add a contact form to my portfolio.The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -82,7 +81,7 @@ To get a local copy up and running, follow these steps.
 4. Open Terminal.
 5. Change the current working directory to the location where you want the cloned directory.
 6. Type git clone, and then paste the URL you of the reposotory.<br>
-``` $ git clone https://github.com/maximoortelli/HelloMicoverse.git ```
+``` $ git clone https://github.com/maximoortelli/Portfolio-setup-and-mobile--first.git ```
 
 ### Install
 
