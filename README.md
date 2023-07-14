@@ -4,7 +4,7 @@
   <img src="cat-black-face.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio contact form and finish mobile version</b></h3>
+  <h3><b>Portfolio: Animations and transitions</b></h3>
 
 </div>
 
@@ -32,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio contact form and finish mobile version. <a name="about-project"></a>
+# 📖 Portfolio: Animations and transitions. <a name="about-project"></a>
 
-  Portfolio contact form and finish mobile version is an exercise where I will add a contact form to my portfolio.The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
+  Portfolio: Animations and transitions version is an exercise where I will add animations and transitions to my portfolio.The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
 
 ## 🛠 Built With <a name="built-with"></a>
 
