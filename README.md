@@ -137,6 +137,9 @@ Contributions, issues, and feature requests are welcome!
 - GitHub: [@ALPANNA-GH](https://github.com/ALPANNA-GH)
 - Gmail: [Email](mailto:alpanna@gmail.com)
 
+👤 Fernando Montes
+- GitHub: [@Fernando426](https://github.com/Fernando426)
+
 
 Feel free to check the [issues page](../../issues/).
 
