@@ -33,9 +33,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio-application-deploy. <a name="about-project"></a>
+# 📖 Portfolio-Application-deploy. <a name="about-project"></a>
 
- Portfolio: application deploy is an exercise where i will do a deploy version to the portfolio. The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
+ Portfolio: Application deploy is an exercise where i will do a deploy version to the portfolio. The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
 
 ## 🛠 Built With <a name="built-with"></a>
 
