@@ -4,7 +4,7 @@
   <img src="cat-black-face.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio contact form and finish mobile version</b></h3>
+  <h3><b>Portfolio: application deploy</b></h3>
 
 </div>
 
@@ -16,6 +16,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -32,9 +33,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio contact form and finish mobile version. <a name="about-project"></a>
+# 📖 Portfolio: application deploy. <a name="about-project"></a>
 
-  Portfolio contact form and finish mobile version is an exercise where I will add a contact form to my portfolio.The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
+  Portfolio: application deploy is an exercise where I will my first Deploy on GitHub to my portfolio. The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -59,6 +60,14 @@
 - **Use of linters**
 - **Showcase of branching and pull request**
 - **Example of profesional best practices**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+### URL: https://maximoortelli.github.io/Portfolio-setup-and-mobile-first/ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
