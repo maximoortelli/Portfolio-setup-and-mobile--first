@@ -1,10 +1,10 @@
-<a name="readme-top"></a>
+  <a name="readme-top"></a>
 
 <div align="center">
   <img src="cat-black-face.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio: application deploy</b></h3>
+  <h3><b>Portfolio-Application-deploy</b></h3>
 
 </div>
 
@@ -16,7 +16,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    - [🚀 Live Demo](#live-demo)
+    -  [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -33,9 +33,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio: application deploy. <a name="about-project"></a>
+# 📖 Portfolio-application-deploy. <a name="about-project"></a>
 
-  Portfolio: application deploy is an exercise where I will my first Deploy on GitHub to my portfolio. The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
+ Portfolio: application deploy is an exercise where i will do a deploy version to the portfolio. The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -67,7 +67,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-### URL: https://maximoortelli.github.io/Portfolio-setup-and-mobile-first/ 
+### URL: https://maximoortelli.github.io/Portfolio-setup-and-mobile--first/ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
