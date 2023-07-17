@@ -4,7 +4,7 @@
   <img src="cat-black-face.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio-Application-deploy</b></h3>
+  <h3><b>Try Bootstrap</b></h3>
 
 </div>
 
@@ -33,9 +33,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio-application-deploy. <a name="about-project"></a>
+# 📖 Try Bootstrap <a name="about-project"></a>
 
- Portfolio: application deploy is an exercise where i will do a deploy version to the portfolio. The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
+ Try Bootstrap: is an exercise in which I will perform my first test using this preprocessor. The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
 
 ## 🛠 Built With <a name="built-with"></a>
 
