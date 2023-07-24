@@ -614,10 +614,6 @@ button:disabled {
     transition: transform 1s ease;
   }
 
-  .trabajo:hover {
-    transform: scale(180px);
-  }
-
   .ocultarmob {
     visibility: hidden;
     position: absolute;
