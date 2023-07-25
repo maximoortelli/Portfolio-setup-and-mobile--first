@@ -4,7 +4,7 @@
   <img src="cat-black-face.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio-details-popup-window</b></h3>
+  <h3><b>Portfolio-Details-Popup-Window</b></h3>
 
 </div>
 
@@ -16,7 +16,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -33,7 +32,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio-details-popup-window <a name="about-project"></a>
+# 📖 Portfolio-Details-Popup-Window <a name="about-project"></a>
 
 Portfolio-details-popup-window is an exercise in which I will add new pop up windows to my cards to my portfolio, both for desktop and mobile versions. The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
 
@@ -85,7 +84,7 @@ To get a local copy up and running, follow these steps.
 4. Open Terminal.
 5. Change the current working directory to the location where you want the cloned directory.
 6. Type git clone, and then paste the URL you of the reposotory.<br>
-``` $ git clone https://github.com/maximoortelli/Portfolio-reactivo.git ```
+``` $ git clone https://github.com/maximoortelli/Portfolio-setup-and-mobile--first.git ```
 
 ### Install
 
@@ -115,6 +114,7 @@ The project can be deployed to a hosting service.
 👤 **Maximo Ortelli.**
 
 - GitHub: [@maximoortelli](https://github.com/maximoortelli)
+- Linkedin: [@maximoortelli](https://www.linkedin.com/in/maximo-ortelli-rueda-265228203/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
