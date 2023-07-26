@@ -94,7 +94,7 @@
   .tarjetas-popup {
     border-radius: 1.1vw;
     width: 80.278vw;
-    height: 80vh;
+    height: 100vh;
   }
 
   .exit-boton {
@@ -124,17 +124,19 @@
   }
 
   .foto-popup {
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    width: 76%;
+    height: 70%;
+    margin-top: -2%;
     object-fit: cover;
-    object-position: center;
+    margin-left: 0.5%;
   }
 
   .escritorio-capa-popup {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 4.097vw 1.667vw 1.667vw;
+    margin: 70vh 1.667vw 0vw;
   }
 
   .escritorio-capa-popup .derecha {
