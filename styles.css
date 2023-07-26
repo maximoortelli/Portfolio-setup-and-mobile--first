@@ -723,15 +723,19 @@ button:disabled {
     padding: 10px;
     background-color: #fcc;
     border: 1px solid red;
-    border-radius: 4px;
+    border-radius: 20px;
   }
 
   .error-message-text {
-    margin-right: 10px;
+    margin-left: 80px;
+    border-radius: 15px;
+    padding: 3%;
   }
 
   .error-message-close {
     cursor: pointer;
+    border-radius: 15px;
+    padding: 2%;
   }
 }
 
