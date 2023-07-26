@@ -11,6 +11,15 @@
   backdrop-filter: blur(10px);
 }
 
+.tarjetas-popup {
+  border: 1px solid #DFE1E6;
+  border-radius: 4.26vw;
+  background-color: #fff;
+  width: 91.46vw;
+  overflow: auto;
+  margin: 0 3.2vw 0 0;
+}
+
 .tarjetas-popup div.arriba {
   justify-content: space-between;
 }
