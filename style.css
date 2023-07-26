@@ -1379,10 +1379,10 @@ button:disabled {
     display: block; /* Visible en mobile */
   }
 
-.hamburguer {
+  .hamburguer {
     display: block;
   }
-  
+
   .hrupo .bar:hover {
     background: white;
   }
