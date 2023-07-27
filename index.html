@@ -7,49 +7,61 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Mobile Menu</title>
      <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="menuhamburguer.css">
  </head>
 
  <body>
 
-     <header>
+    <header>
 
-         <nav class="margen navbar">
+        <nav class="margen navbar">
 
-             <h2 class="logo">My logo</h2>
-             
-             <ul class="nav-menu">
+            <h2 class="logo">My logo</h2>
 
-                 <li class="nav-item">
+            <img src="./media/Menu.svg" class="hamburguer" >
+            
+            <ul class="nav-menu">
 
-                     <a href="#" class="nav-link">Portfolio</a>
+                <li class="nav-item">
 
-                 </li>
-                
-                 <li class="nav-item2">
+                    <a href="#portfolio-a" class="nav-link">Portfolio</a>
 
-                     <a href="#" class="nav-link">About</a>
+                </li>
+               
+                <li class="nav-item2">
 
-                 </li>
+                    <a href="#about-b" class="nav-link">About</a>
 
-                 <li class="nav-item3">
+                </li>
 
-                     <a href="#" class="nav-link">Contact</a>
+                <li class="nav-item3">
 
-                 </li>
+                    <a href="#contact-c" class="nav-link">Contact</a>
 
-             </ul>
+                </li>
 
-             <div class="hamburguer grupo"> 
+            </ul>
 
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+        </nav>
 
-             </div>
+        <section class="menumobile">
+           
+           <div>
 
-         </nav>
+               <div class="exit">
+                   <img class="close" src="./media/Icon.png"></img>
+               </div>
 
-     </header>
+               <ul class="connects">
+                   <li><a href="#portfolio-a" id="portfolio">Portfolio</a></li>
+                   <li><a href="#about-b" id="about">About</a></li>
+                   <li><a href="#contact-c" id="contact">Contact</a></li>
+               </ul>
+            </div>
+
+        </section>
+
+    </header>
 
      <div class="flex-column enter ">
 
@@ -121,7 +133,7 @@
 
      </div>
 
-     <section class="tarjetas">
+     <section class="tarjetas" id="portfolio-a">
 
 
         <div class="trabajo tamaño flex-column ">
@@ -511,7 +523,7 @@
            
     </section>
     
-     <div class="acerca">
+     <div class="acerca" id="about-b">
 
          <div class="acerca-info">
 
@@ -657,7 +669,7 @@
 
      </div>
 
-     <div class="contacto">
+     <div class="contacto" id="contact-c">
 
          <div class="flex-column fondo">
 
