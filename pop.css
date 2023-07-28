@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.fondo-popup {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+
+.tarjetas-popup {
+  border: 1px solid #dfe1e6;
+  border-radius: 4.26vw;
+  background-color: #fff;
+  width: 91.46vw;
+  overflow: auto;
+  margin: 0 3.2vw 0 0;
+}
+
+.tarjetas-popup div.arriba {
+  justify-content: space-between;
+}
+
+.tarjetas-popup h3 {
+  font-size: 2rem;
+  margin-top: 4.8vw;
+  margin-bottom: 0;
+}
+
+.exit-boton {
+  background-image: url(media/quit\ Icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 8vw 8vw 0 0;
+  width: 0.75rem;
+  height: 0.75rem;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.tarjetas-popup ul.empresa {
+  margin: 0.867vw 5.3vw;
+}
+
+.tarjetas-popup .indices p {
+  font-size: 0.75rem;
+}
+
+.tarjetas-popup .empresa li p {
+  font-size: 0.813rem;
+}
+
+.escritorio-capa-popup .derecha {
+  display: flex;
+  flex-direction: column;
+}
+
+.foto-popup {
+  align-self: center;
+  width: 90%;
+}
+
+.tarjetas-popup hr {
+  border: 1px solid #ebecf0;
+  align-self: center;
+  width: 90%;
+  margin: 0;
+}
+
+.button-container {
+  justify-content: space-around;
+}
+
+.tarjetas-popup .div-button {
+  margin-top: 3.038vh;
+}
+
+button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.5vw;
+  line-height: 3.34vw;
+  letter-spacing: 0.03em;
+  align-items: center;
+  text-align: center;
+  padding: 4.5vw 3vw;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  color: #396df2;
+  background-color: transparent;
+}
+
+button:hover {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  background-color: rgba(96, 112, 255, 1);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  cursor: pointer;
+}
+
+button:active {
+  color: rgba(255, 255, 255, 1);
+  background: rgba(34, 48, 210, 1);
+}
+
+button:disabled {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(94, 108, 132, 1);
+  border-color: rgba(193, 199, 208, 1);
+}
+
+.tarjetas-popup .button-container button {
+  padding: 1.701vh;
+}
+
+.button-icon {
+  margin: 0 0.625rem;
+  height: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .tarjetas-popup {
+    border-radius: 1.1vw;
+    width: 1156px;
+    height: 1163px;
+  }
+
+  .exit-boton {
+    width: 0.75rem;
+    height: 0.75rem;
+    margin: 2.639vw 2.639vw 0 0;
+  }
+
+  .tarjetas-popup h3 {
+    font-size: 2rem;
+    margin: 1.667vw 1.667vw 0;
+  }
+
+  .tarjetas-popup ul.empresa {
+    margin: 1.1vw 1.667vw 2.5vw;
+  }
+
+  .tarjetas-popup .empresa li {
+    margin: 0 0.833vw 0 0;
+  }
+
+  .popup-imagen-grupo {
+    align-self: center;
+  }
+
+  .foto-popup {
+    position: static;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    width: 1108px;
+    height: 586px;
+    border-radius: 8px;
+  }
+
+  .escritorio-capa-popup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3vh 1.667vw 0;
+  }
+
+  .escritorio-capa-popup .derecha {
+    position: relative;
+    width: 306px;
+    padding-right: 5%;
+  }
+
+  .escritorio-capa-popup .indices li {
+    margin-bottom: 1.75vw;
+  }
+
+  .escritorio-capa-popup p.tarjeta-explicacion {
+    width: 778px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .tarjetas-popup.div-button {
+    margin-top: 1.458vw;
+  }
+
+  button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #396df2;
+    border-radius: 8px;
+    color: #396df2;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 12px;
+    gap: 10px;
+  }
+
+  button:hover {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    background-color: rgba(96, 112, 255, 1);
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    cursor: pointer;
+  }
+
+  button:active {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(34, 48, 210, 1);
+  }
+
+  button:disabled {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(94, 108, 132, 1);
+    border-color: rgba(193, 199, 208, 1);
+  }
+
+  .tarjetas-popup .button-container button {
+    padding: 0.634vh;
+  }
+
+  .lista {
+    margin-left: 10px;
+  }
+}

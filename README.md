@@ -4,7 +4,7 @@
   <img src="cat-black-face.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio-Mobile-Menu</b></h3>
+  <h3><b>Portfolio-Details-Popup-Window</b></h3>
 
 </div>
 
@@ -32,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio-details-popup-window <a name="about-project"></a>
+# 📖 Portfolio-Details-Popup-Window <a name="about-project"></a>
 
-Portfolio-mobile-menu is an exercise in which I will add new Mobile Menu to my portfolio mobile version. The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
+Portfolio-details-popup-window is an exercise in which I will add new pop up windows to my cards to my portfolio, both for desktop and mobile versions. The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -114,6 +114,7 @@ The project can be deployed to a hosting service.
 👤 **Maximo Ortelli.**
 
 - GitHub: [@maximoortelli](https://github.com/maximoortelli)
+- Linkedin: [@maximoortelli](https://www.linkedin.com/in/maximo-ortelli-rueda-265228203/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
