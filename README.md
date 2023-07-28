@@ -4,7 +4,7 @@
   <img src="cat-black-face.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio-Details-Popup-Window</b></h3>
+  <h3><b>Portfolio-Validate-Contact-Form</b></h3>
 
 </div>
 
@@ -32,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio-Details-Popup-Window <a name="about-project"></a>
+# 📖 Portfolio-Validate-Contact-Form <a name="about-project"></a>
 
-Portfolio-details-popup-window is an exercise in which I will add new pop up windows to my cards to my portfolio, both for desktop and mobile versions. The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
+Portfolio-Validate-Contact-Form is an exercise in which I will add new validate contact form to my portfolio, both for desktop and mobile versions. The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
 
 ## 🛠 Built With <a name="built-with"></a>
 
