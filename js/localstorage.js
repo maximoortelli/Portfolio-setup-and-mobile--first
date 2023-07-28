@@ -1,23 +1,23 @@
-function localData() {
-  const localData = {
-    name: document.getElementById('savename').value,
-    email: document.getElementById('saveemail').value,
+function storeData() {
+  const form = {
+    name: document.getElementById('name').value,
+    email: document.getElementById('email').value,
     message: document.querySelector('textarea').value,
   };
-  localStorage.setItem('localData', JSON.stringify(localData));
+  localStorage.setItem('form', JSON.stringify(form));
 }
 
-const Inputs = document.querySelectorAll('#form input, #form textarea');
-Inputs.forEach((input) => {
-  input.addEventListener('input', localData);
+const formInputs = document.querySelectorAll('#survey-form input, #survey-form textarea');
+formInputs.forEach((input) => {
+  input.addEventListener('input', storeData);
 });
 
 window.addEventListener('DOMContentLoaded', () => {
-  let localData = localStorage.getItem('localData');
-  if (localData) {
-    localData = JSON.parse(localData);
-    document.getElementById('savename').value = localData.name || '';
-    document.getElementById('saveemail').value = localData.email || '';
-    document.querySelector('textarea').value = localData.message || '';
+  let form = localStorage.getItem('form');
+  if (form) {
+    form = JSON.parse(form);
+    document.getElementById('name').value = form.name || '';
+    document.getElementById('email').value = form.email || '';
+    document.querySelector('textarea').value = form.message || '';
   }
 });
