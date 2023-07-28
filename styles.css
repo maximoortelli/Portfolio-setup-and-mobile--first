@@ -452,12 +452,21 @@ button:disabled {
     margin: 0 0 1.66vw 0;
   }
 
+   h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-bottom: 0.972vw;
+  }
+
   div.conectar h4 {
     font-style: normal;
     font-weight: 500;
-    font-size: 1.1vw;
+    font-size: 15px;
     margin-top: 0;
     margin-bottom: 0.972vw;
+    cursor: pointer;
   }
 
   .iconos {
