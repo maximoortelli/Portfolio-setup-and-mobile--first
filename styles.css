@@ -371,22 +371,24 @@ li.idioma img {
   margin-bottom: 5.3vw;
 }
 
-button:hover {
-  color: #fff;
-  background-color: #6070ff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-}
+  button:hover {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    background-color: rgba(96, 112, 255, 1);
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    cursor: pointer;
+  }        
 
-button:active {
-  color: #fff;
-  background: #2230d2;
-}
-
-button:disabled {
-  background-color: transparent;
-  color: #5e6c84;
-  border-color: #c1c7d0;
-}
+  button:active {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(34, 48, 210, 1);
+  }
+  
+  button:disabled {
+    background-color: rgba(255, 255, 255, 1);
+    color:rgba(94, 108, 132, 1);
+    border-color: rgba(193, 199, 208, 1);
+  }
 
 @media (min-width: 768px) {
   .escritorio {
@@ -587,15 +589,36 @@ button:disabled {
   button {
     font-style: normal;
     font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
     align-items: center;
     text-align: center;
-    padding: 0.83vw;
     border: 1px solid #396df2;
-    border-radius: 0.556vw;
+    border-radius: 8px;
     color: #396df2;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 12px;
     font-size: 1.181vw;
     line-height: 1.667vw;
+  }
+
+  button:hover {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    background-color: rgba(96, 112, 255, 1);
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    cursor: pointer;
+  }        
+
+  button:active {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(34, 48, 210, 1);
+  }
+  
+  button:disabled {
+    background-color: rgba(255, 255, 255, 1);
+    color:rgba(94, 108, 132, 1);
+    border-color: rgba(193, 199, 208, 1);
   }
 
   .acerca ul li.idioma p {

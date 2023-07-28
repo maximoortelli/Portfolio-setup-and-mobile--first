@@ -92,6 +92,40 @@
   height: 1.25rem;
 }
 
+button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.5vw;
+  line-height: 3.34vw;
+  letter-spacing: 0.03em;
+  align-items: center;
+  text-align: center;
+  padding: 4.5vw 3vw;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  color: #396df2;
+  background-color: transparent;
+}
+
+button:hover {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    background-color: rgba(96, 112, 255, 1);
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    cursor: pointer;
+  }        
+
+button:active {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(34, 48, 210, 1);
+  }
+
+button:disabled {
+    background-color: rgba(255, 255, 255, 1);
+    color:rgba(94, 108, 132, 1);
+    border-color: rgba(193, 199, 208, 1);
+  }
+
 @media (min-width: 768px) {
   .tarjetas-popup {
     border-radius: 1.1vw;
@@ -165,5 +199,41 @@
 
   .lista {
     margin-left: 10px;
+  }
+  
+  button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #396df2;
+    border-radius: 8px;
+    color: #396df2;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 12px;
+    font-size: 1.181vw;
+    line-height: 1.667vw;
+    gap: 10px;
+  }
+
+  button:hover {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    background-color: rgba(96, 112, 255, 1);
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    cursor: pointer;
+  }        
+
+  button:active {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(34, 48, 210, 1);
+  }
+
+  button:disabled {
+    background-color: rgba(255, 255, 255, 1);
+    color:rgba(94, 108, 132, 1);
+    border-color: rgba(193, 199, 208, 1);
   }
 }
