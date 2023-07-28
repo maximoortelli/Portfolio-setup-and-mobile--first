@@ -1,12 +1,21 @@
-const hamburguer = document.querySelector('.hamburguer');
-const navMenu = document.querySelector('.nav-menu');
+const connectportfolio = document.getElementById('portfolio');
+const connectabout = document.getElementById('about');
+const connectcontact = document.getElementById('contact');
+const exitbtn = document.querySelector('.exit');
+const hamburguerconnect = document.querySelector('.hamburguer');
+const menumobile = document.querySelector('.menumobile');
 
-hamburguer.addEventListener('click', () => {
-  hamburguer.classList.toggle('active');
-  navMenu.classList.toggle('active');
-});
+function appear() {
+  menumobile.style.display = 'block';
+}
 
-document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
-  hamburguer.classList.remove('active');
-  hamburguer.classList.remove('active');
-}));
+function disappear() {
+  menumobile.style.display = 'none';
+  document.body.style.overflow = 'auto';
+}
+
+exitbtn.addEventListener('click', disappear);
+hamburguerconnect.addEventListener('click', appear);
+connectportfolio.addEventListener('click', disappear);
+connectabout.addEventListener('click', disappear);
+connectcontact.addEventListener('click', disappear);
