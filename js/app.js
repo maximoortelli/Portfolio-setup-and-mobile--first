@@ -205,11 +205,17 @@ function worksPopUp(project) {
               </ul>
               <hr>
               <div class="flex-row button-container">
-                  <div class="grupo-boton"><button class="flex-row">See live <img class="button-icon"
-                              src="media/See live icon.png"> </button></div>
-                  <div class="grupo-boton"><button class="flex-row">See source <img class="button-icon"
-                              src="media/See source icon.png"></button></div>
-              </div>
+                 <div class="grupo-boton">
+                   <a href="https://maximoortelli.github.io/Portfolio-setup-and-mobile--first/" target="_blank">
+                       <button class="flex-row">See live <img class="button-icon" src="media/See live icon.png"></button>
+                   </a>
+                 </div>
+                 <div class="grupo-boton">
+                   <a href="https://github.com/maximoortelli/Portfolio-setup-and-mobile--first/tree/Portfolio-Pop-Up-Window" target="_blank">
+                     <button class="flex-row">See source <img class="button-icon" src="media/See source icon.png"></button>
+                   </a>
+                 </div>
+               </div>
           </div>
       </div>
   </div>

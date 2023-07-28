@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .fondo-popup {
   height: 100vh;
   width: 100vw;
@@ -93,8 +95,8 @@
 @media (min-width: 768px) {
   .tarjetas-popup {
     border-radius: 1.1vw;
-    width: 80.278vw;
-    height: 100vh;
+    width: 1156px;
+    height: 1163px;
   }
 
   .exit-boton {
@@ -118,29 +120,29 @@
 
   .popup-imagen-grupo {
     align-self: center;
-    width: 76.94vw;
-    height: 40.694vw;
-    overflow: hidden;
   }
 
   .foto-popup {
-    position: absolute;
-    width: 76%;
-    height: 70%;
-    margin-top: -2%;
-    object-fit: cover;
-    margin-left: 0.5%;
+    position:static;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    width: 1108px;
+    height: 586px;
+    border-radius: 8px;
   }
 
   .escritorio-capa-popup {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 70vh 1.667vw 0;
+    margin: 3vh 1.667vw 0;
   }
 
   .escritorio-capa-popup .derecha {
-    width: 20.694vw;
+    position: relative;
+    width: 306px;
+    padding-right: 5%;
   }
 
   .escritorio-capa-popup .indices li {
@@ -148,7 +150,10 @@
   }
 
   .escritorio-capa-popup p.tarjeta-explicacion {
-    width: 54.028vw;
+    width: 778px;
+    font-weight: 400;
+    font-size: 16px;
+
   }
 
   .tarjetas-popup.div-button {
@@ -162,4 +167,5 @@
   .lista {
     margin-left: 10px;
   }
+
 }
