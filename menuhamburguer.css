@@ -1,0 +1,56 @@
+.exit {
+  display: flex;
+  justify-content: end;
+  padding-top: 1rem;
+  cursor: pointer;
+}
+
+.logo-menubar {
+  display: flex;
+  align-items: flex-start;
+}
+
+section.logo-menubar {
+  padding-right: 0;
+}
+
+.menumobile {
+  width: 100%;
+  background-color: rgba(96, 112, 255, 0.795);
+  backdrop-filter: blur(6px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  overflow-y: hidden;
+  height: 100vh;
+}
+
+.hamburguer {
+  margin-right: -18px;
+}
+
+.close {
+  padding-top: 9px;
+  padding-right: 2.4rem;
+  font-size: 26px;
+}
+
+ul.connects {
+  padding-top: 80px;
+  padding-left: 30px;
+}
+
+#portfolio {
+  position: absolute;
+}
+
+#about {
+  position: absolute;
+  margin-top: 70px;
+}
+
+#contact {
+  position: absolute;
+  margin-top: 140px;
+}

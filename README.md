@@ -1,10 +1,10 @@
-  <a name="readme-top"></a>
+<a name="readme-top"></a>
 
 <div align="center">
   <img src="cat-black-face.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Try Bootstrap</b></h3>
+  <h3><b>Portfolio-Mobile-Menu</b></h3>
 
 </div>
 
@@ -32,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Try Bootstrap <a name="about-project"></a>
+# 📖 Portfolio-details-popup-window <a name="about-project"></a>
 
- Try Bootstrap: is an exercise in which I will perform my first test using this preprocessor. The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
+Portfolio-mobile-menu is an exercise in which I will add new Mobile Menu to my portfolio mobile version. The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -47,6 +47,9 @@
   </ul>
   <ul>
     <li>CSS</a></li>
+  </ul>
+  <ul>
+    <li>JAVASCRIPT</a></li>
   </ul>
 </details>
 
@@ -111,8 +114,6 @@ The project can be deployed to a hosting service.
 👤 **Maximo Ortelli.**
 
 - GitHub: [@maximoortelli](https://github.com/maximoortelli)
-- Linkedin: [@MaximoOrtelli](https://www.linkedin.com/in/maximo-ortelli-4aa460254/)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,15 +129,6 @@ This is the final build.
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-
-👤 **Contributors**
-
-> thanks for all contributiors
-
-👤 Ahmed Alpanna
-- GitHub: [@ALPANNA-GH](https://github.com/ALPANNA-GH)
-- Gmail: [Email](mailto:alpanna@gmail.com)
-
 
 Feel free to check the [issues page](../../issues/).
 
