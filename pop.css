@@ -83,15 +83,6 @@
   margin-top: 3.038vh;
 }
 
-.tarjetas-popup .button-container button {
-  padding: 1.701vh;
-}
-
-.button-icon {
-  margin: 0 0.625rem;
-  height: 1.25rem;
-}
-
 button {
   font-style: normal;
   font-weight: 500;
@@ -108,23 +99,32 @@ button {
 }
 
 button:hover {
-    color: rgba(255, 255, 255, 1);
-    font-weight: 500;
-    background-color: rgba(96, 112, 255, 1);
-    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-    cursor: pointer;
-  }        
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  background-color: rgba(96, 112, 255, 1);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  cursor: pointer;
+}
 
 button:active {
-    color: rgba(255, 255, 255, 1);
-    background: rgba(34, 48, 210, 1);
-  }
+  color: rgba(255, 255, 255, 1);
+  background: rgba(34, 48, 210, 1);
+}
 
 button:disabled {
-    background-color: rgba(255, 255, 255, 1);
-    color:rgba(94, 108, 132, 1);
-    border-color: rgba(193, 199, 208, 1);
-  }
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(94, 108, 132, 1);
+  border-color: rgba(193, 199, 208, 1);
+}
+
+.tarjetas-popup .button-container button {
+  padding: 1.701vh;
+}
+
+.button-icon {
+  margin: 0 0.625rem;
+  height: 1.25rem;
+}
 
 @media (min-width: 768px) {
   .tarjetas-popup {
@@ -193,14 +193,6 @@ button:disabled {
     margin-top: 1.458vw;
   }
 
-  .tarjetas-popup .button-container button {
-    padding: 0.634vh;
-  }
-
-  .lista {
-    margin-left: 10px;
-  }
-  
   button {
     font-style: normal;
     font-weight: 500;
@@ -213,8 +205,6 @@ button:disabled {
     color: #396df2;
     background-color: rgba(255, 255, 255, 1);
     padding: 12px;
-    font-size: 1.181vw;
-    line-height: 1.667vw;
     gap: 10px;
   }
 
@@ -224,7 +214,7 @@ button:disabled {
     background-color: rgba(96, 112, 255, 1);
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     cursor: pointer;
-  }        
+  }
 
   button:active {
     color: rgba(255, 255, 255, 1);
@@ -233,7 +223,15 @@ button:disabled {
 
   button:disabled {
     background-color: rgba(255, 255, 255, 1);
-    color:rgba(94, 108, 132, 1);
+    color: rgba(94, 108, 132, 1);
     border-color: rgba(193, 199, 208, 1);
+  }
+
+  .tarjetas-popup .button-container button {
+    padding: 0.634vh;
+  }
+
+  .lista {
+    margin-left: 10px;
   }
 }
